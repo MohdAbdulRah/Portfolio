@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/portfolio.png";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,30 +31,31 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Sensor Fault Detection",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Developed a Flask-based ML platform enabling users to interact with predictive models and visualize outcomes in real time, improving accessibility and decision accuracy by 40%. Implemented EDA and preprocessing pipelines with 88% prediction accuracy.",
+    url: "https://github.com/MohdAbdulRah/Sensor_Fault_Detection",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Task War",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Built an interactive task management platform that gamifies productivity, allowing users to earn rewards for completing daily tasks. Integrated leaderboards, improved engagement by 45%, and optimized frontend and backend performance using MERN stack.",
+    url: "https://github.com/MohdAbdulRah/taskWarr",
   },
   {
-    title: "My Resume Site",
+    title: "WanderLust",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Created a full-stack rental platform where users can list, edit, and manage property listings with authentication and reviews. Optimized backend with Express and MongoDB, improving data retrieval by 40%. Deployed on Render for scalability.",
+    url: "https://github.com/MohdAbdulRah/MajorProject",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Diabetes Prediction",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Built a supervised ML model to predict diabetes likelihood using diagnostic data with 90% accuracy. Implemented preprocessing and evaluation with Scikit-learn and deployed via Flask for real-time predictions on Render.",
+    url: "https://github.com/MohdAbdulRah/DiabetesPrediction",
   },
 ];
+
 
 const Portfolio = () => {
   return (
